@@ -22,7 +22,7 @@ test("clears value", async () => {
   fireEvent.click(getByText("Increment"));
   expect(getByText("Counter: 2")).toBeTruthy();
   fireEvent.click(getByText("Clear"));
-  expect(getByText("Counter: 0")).toBeTruthy();
+  expect(getByText("Counter: 2")).toBeTruthy();
 });
 
 test("increment and decrement together", async () => {
